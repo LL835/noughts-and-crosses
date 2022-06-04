@@ -1,0 +1,41 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: #330065; /* #280659; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header{
+    font-size: 50px;
+    color: rgb(245, 73, 66);
+    text-shadow: 3px 2px #AE26D8;
+    width: 50%;
+}
+
+.grid-container {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-auto-rows: 150px;
+    grid-gap: 15px;
+}
+
+
+.grid-container > * {
+    border: solid 1px rgb(245, 73, 66);
+    color: rgb(245, 73, 66);
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
